@@ -33,11 +33,13 @@ GLOBAL_APPS = [
 
 LOCAL_APPS = [
     "common",
-    "products"
+    "products",
+    "clinics"
 ]
 
 THIRD_PARTY_APPS = [
-    "rest_framework"
+    "rest_framework",
+    "ckeditor"
 ]
 
 INSTALLED_APPS = GLOBAL_APPS + LOCAL_APPS + THIRD_PARTY_APPS
